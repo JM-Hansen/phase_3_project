@@ -84,8 +84,7 @@ This visual reflects the target class of functional wells. There is a class imba
 
 ![Feature Importance-Copy1](https://user-images.githubusercontent.com/104652254/211400377-ff6ef0ca-35ce-423f-a062-12aa26e18b2d.png)
 
-This reflects the top feature importances that influenced the outcomes of the model with quantity of water, 
-where enough, sufficient, or dry defining the feature.
+This reflects the top feature importances that influenced the outcomes of the model with water quantity as the topmost feature. Quantity values include 'enough', 'sufficient', or 'dry'.
 
 ![functioning wells by funder-Copy1](https://user-images.githubusercontent.com/104652254/211400397-cc1e821a-0994-421c-ae73-a34cf3245aae.png)
 
@@ -93,7 +92,7 @@ The top five funders. Nearly half of the wells that they fund are non-functional
 
 ![World Bank Enough-Copy1](https://user-images.githubusercontent.com/104652254/211400413-fac607d6-707d-4e00-93fc-c0eef0a400c7.png)
 
-For wells there is enough water but the well is still nonfunctioning is broken down by pump technology. Submersible pumps
+This visual details the pump technology type for wells where there is enough water present. Submersible pumps
 offer an opportunity to address nonfunctioning wells where water sufficiency is not the problem.
 
 
@@ -113,7 +112,7 @@ The World Bank is one of the top 5 funders, with whom Water Aid already has a wo
 World Bank also installs 20% of the wells they fund. Water Aid should work more closely with World Bank, 
 especially considering that 52% of the wells that the World Bank funds are nonfunctional.
 
-#### 3.
+#### 3. Pump Technology
 
 Water Aid should focus on wells that are driven by submersible pumps and have 'enough' water. 
 Out of wells funded by World Bank that have been labeled with 'enough' water in quantity, 41% are 
@@ -125,8 +124,6 @@ and basic infrastructure resources.
 ### Navigating Repository
 
 Data Visuals - Contains three visuals communicating data context and model results.
-
-Pickle Files - Contains fitted models from initial model to final model
 
 Water Wells.ipnyb - A jupyter notebook containing the worked model code
 
